@@ -13,7 +13,7 @@
  <ul>
  <li><a href="index2.html">Boards</a></li>
  <li><a href="#">Threads</a></li>
- <li><a href="#">Contato</a></li>
+ <li><a href="contato.html">Contato</a></li>
  </ul>
  </nav>
  </header>
@@ -28,9 +28,11 @@
  <h2>Criar thread</h2>
  <form id="form-postagem">
 <input type="text" id="nome" disabled>
-<input type="file" name="midia" accept="image/*,video/*,audio/*">
+<input type="file" name="arquivo">
 <div id="preview-midia"></div>
  <textarea name="mensagem" placeholder="Mensagem"></textarea>
+ <input type="password" id="senha" placeholder="Senha de ADM">
+ <button id="verificar-senha">Verificar senha</button>
  <button>Postar</button>
  </form>
  </section>
